@@ -8,7 +8,7 @@ import * as Popper from '@popperjs/core';
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.0.1): dom/selector-engine.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+
  * --------------------------------------------------------------------------
  */
 
