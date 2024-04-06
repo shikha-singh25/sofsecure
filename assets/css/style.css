@@ -423,8 +423,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 130px 0 10px 0;
   font-size: 48px;
   font-weight: 700;
-  line-height: 0px;
-  color: #ffffff;
+  line-height: 58px;
+  color: #000cf1;
 }
 
 #hero h2 {
