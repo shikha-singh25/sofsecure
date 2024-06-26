@@ -9,12 +9,12 @@ body {
 }
 
 a {
-  color: #0c1064;
+  color: #ffffff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #262a76;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -35,7 +35,7 @@ font-weight: 400;
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #211C6A
+  background: #000000
 }
 
 #preloader:before {
@@ -43,7 +43,7 @@ font-weight: 400;
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #211C6A;
+  border: 6px solid #000000;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -81,7 +81,7 @@ font-weight: 400;
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #000cf1;
+  background: #000000;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -115,10 +115,10 @@ font-weight: 400;
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: #ffffff;
+  background: #000000;
 }
 #fixed {
-  background: #ffffff;
+  background: #000000;
 }
 .navbar {
   padding: 0;
@@ -130,6 +130,7 @@ font-weight: 400;
   display: flex;
   list-style: none;
   align-items: center;
+  color: white;
 }
 
 .navbar li {
@@ -143,7 +144,7 @@ font-weight: 400;
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 500;
-  color: #000000;
+  color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -155,7 +156,7 @@ font-weight: 400;
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #000cf1;
+  color: #ffffff;
 }
 
 #header .logo {
@@ -189,7 +190,7 @@ font-weight: 400;
 
 #topbar .contact-info i {
   font-style: normal;
-  color: #220cb7;
+  color: #000000;
 }
 
 #topbar .contact-info i a,
@@ -249,7 +250,7 @@ font-weight: 400;
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 500;
-  color: #000000;
+  color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -261,7 +262,7 @@ font-weight: 400;
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #000cf1;
+  color: #ffffff;
 }
 
 .navbar .getstarted {
@@ -270,13 +271,13 @@ font-weight: 400;
   border-radius: 50px;
   color: #fff;
   font-size: 14px;
-  border: 2px solid #000cf1;
+  border: 2px solid #000000;
   font-weight: 600;
 }
 
 .navbar .getstarted:hover {
   color: #fff;
-  background: #000cf1;
+  background: #000000;
 }
 
 .navbar .dropdown ul {
@@ -312,7 +313,7 @@ font-weight: 400;
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #000cf1;
+  color: #000000;
 }
 
 .navbar .dropdown:hover > ul {
@@ -407,7 +408,7 @@ font-weight: 400;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #000cf1;
+  color: #000000;
 }
 
 .navbar-mobile .getstarted {
@@ -440,7 +441,7 @@ font-weight: 400;
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #000cf1;
+  color: #000000;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -465,7 +466,7 @@ font-weight: 400;
   font-size: 48px;
   font-weight: 700;
   line-height: 58px;
-  color: #000cf1;
+  color: #000000;
 }
 
 #hero h2 {
@@ -484,11 +485,11 @@ font-weight: 400;
   border-radius: 4px;
   transition: 0.3s;
   line-height: 1;
-  color: #1b0ed6;
+  color: #000000;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #0f0e0e;
+  border: 2px solid #000000;
 }
 
 #hero .btn-get-started:hover {
@@ -505,7 +506,10 @@ font-weight: 400;
   color: #fff;
   line-height: 1;
 }
-
+.text-uppercase{
+  font-size: 69px;
+  font-weight: 900;
+}
 #hero .btn-watch-video i {
   line-height: 0;
   color: #fff;
@@ -515,9 +519,13 @@ font-weight: 400;
 }
 
 #hero .btn-watch-video:hover i {
-  color: #000cf1;
+  color: #000000;
 }
 
+.hero-btn a{
+  background-color: #ffffff;
+  color:black;
+}
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
@@ -606,7 +614,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #000cf1;
+  color: #000000;
 }
 
 .section-title h2::before {
@@ -626,7 +634,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #000cf1;
+  background: #000000;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -741,7 +749,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #000cf1;
+  color: #000000;
   line-height: 1;
 }
 
@@ -759,15 +767,15 @@ section {
   border-radius: 4px;
   transition: 0.3s;
   line-height: 1;
-  color: #000cf1;
+  color: #000000;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #000cf1;
+  border: 2px solid #000000;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #000cf1;
+  background: #000000;
   color: #fff;
   text-decoration: none;
 }
@@ -780,7 +788,7 @@ section {
 }
 
 .why-us .content h1{
-  color:#000cf1;
+  color:#000000;
 }
 .why-us .content h3 {
   font-weight: 400;
@@ -837,7 +845,7 @@ section {
 }
 
 .why-us .accordion-list span {
-  color: #000cf1;
+  color: #000000;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
@@ -864,7 +872,7 @@ section {
 }
 
 .why-us .accordion-list a.collapsed:hover {
-  color: #000cf1;
+  color: #000000;
 }
 
 .why-us .accordion-list a.collapsed .icon-show {
@@ -906,7 +914,7 @@ section {
 .skills .content h3 {
   font-weight: 700;
   font-size: 32px;
-  color: #000cf1;
+  color: #000000;
   font-family: "Poppins", sans-serif;
 }
 
@@ -922,7 +930,7 @@ section {
 .skills .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #000cf1;
+  color: #000000;
 }
 
 .skills .content p:last-child {
@@ -943,7 +951,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #000cf1;
+  color: #000000;
 }
 
 .skills .progress .skill .val {
@@ -960,7 +968,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #000cf1;
+  background-color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -978,7 +986,7 @@ section {
 }
 
 .services .icon-box .icon i {
-  color: #000cf1;
+  color: #000000;
   font-size: 36px;
   transition: 0.3s;
 }
@@ -1005,7 +1013,7 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: #000cf1;
+  color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -1042,8 +1050,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #000cf1;
-  border: 2px solid #000cf1;
+  background: #000000;
+  border: 2px solid #000000;
 }
 
 @media (max-width: 1024px) {
@@ -1083,7 +1091,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #000cf1;
+  background: #000000;
   color: #fff;
 }
 
@@ -1135,7 +1143,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #000cf1;
+  color: #000000;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -1171,11 +1179,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #000cf1;
+  border: 1px solid #000000;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #000cf1;
+  background-color: #000000;
 }
 
 .portfolio-details .portfolio-info {
@@ -1301,7 +1309,7 @@ section {
 }
 
 .team .member .social a:hover {
-  background: #000cf1;
+  background: #000000;
 }
 
 .team .member .social a:hover i {
@@ -1354,7 +1362,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #000cf1;
+  color: #000000;
 }
 
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
@@ -1379,7 +1387,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #000cf1;
+  color: #000000;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1400,8 +1408,8 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid #000cf1;
-  border-bottom: 3px solid #000cf1;
+  border-top: 3px solid #000000;
+  border-bottom: 3px solid #000000;
   padding: 30px;
   background: #fff;
   width: 100%;
@@ -1410,7 +1418,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #000cf1;
+  color: #000000;
   float: left;
   width: 44px;
   height: 44px;
@@ -1461,19 +1469,19 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #000cf1;
+  background: #000000;
   color: #fff;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #000cf1;
+  background: #000000;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #000cf1;
-  border-bottom: 3px solid #000cf1;
+  border-top: 3px solid #000000;
+  border-bottom: 3px solid #000000;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1549,7 +1557,7 @@ section {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #000cf1;
+  border-color: #000000;
 }
 
 .contact .php-email-form input {
@@ -1561,7 +1569,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #000cf1;
+  background: #000000;
   border: 0;
   padding: 12px 34px;
   color: #fff;
@@ -1610,7 +1618,7 @@ section {
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 600;
-  color: #000cf1;
+  color: #000000;
 }
 
 .breadcrumbs ol {
@@ -1803,7 +1811,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #000cf1;
+  background: #000000;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1861,7 +1869,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #000cf1;
+  color: #000000;
   font-size: 18px;
   line-height: 1;
 }
@@ -1885,13 +1893,13 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #000cf1;
+  color: #000000;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #000cf1;
+  background: #000000;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
