@@ -1020,7 +1020,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), #023e8a), url("../img/t3.png") fixed center center;
+  background: linear-gradient(rgba(40, 58, 90, 0.9), #000000), url("../img/contact.png") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -1766,7 +1766,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #023e8a;
+  background: #000000;
 }
 
 #footer .footer-newsletter {
@@ -1838,7 +1838,7 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #023e8a;
+  color: #000000;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1912,8 +1912,8 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #209dd8;
-  color: #fff;
+  background: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 
