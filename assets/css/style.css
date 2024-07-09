@@ -95,8 +95,8 @@ font-weight: 400;
 }
 
 .back-to-top:hover {
-  background: #6bc1e9;
-  color: #fff;
+  background: black;
+  color: #ffffff;
 }
 
 .back-to-top.active {
@@ -112,11 +112,14 @@ font-weight: 400;
   z-index: 997;
   padding: -1px 0;
   margin-top: 30px;
+  background-color: black;
+
 }
 
 #header.header-scrolled, #header.header-inner-pages {
   background: #000000;
-}
+  height:111px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;}
 #fixed {
   background: #000000;
 }
@@ -196,14 +199,14 @@ font-weight: 400;
 #topbar .contact-info i a,
 #topbar .contact-info i span {
   padding-left: 5px;
-  color: #7e14c9;
+  color: #000000;
   
 }
 
 #topbar .contact-info i a {
   line-height: 0;
-  transition: 0.3s;
-  transition: 0.3s;
+    transition: 0.3s;
+    transition: 0.3s;
 }
 
 #topbar .contact-info i a:hover {
@@ -305,7 +308,7 @@ font-weight: 400;
   font-size: 14px;
   text-transform: none;
   font-weight: 500;
-  color: #0c3c53;
+  color: #000000;
 }
 
 .navbar .dropdown ul a i {
@@ -376,7 +379,7 @@ font-weight: 400;
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(40, 58, 90, 0.9);
+  background: rgba(0, 0, 0, 0.9);
   transition: 0.3s;
   z-index: 999;
 }
@@ -404,7 +407,7 @@ font-weight: 400;
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #37517e;
+  color: #000000;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
@@ -413,7 +416,7 @@ font-weight: 400;
 
 .navbar-mobile .getstarted {
   margin: 15px;
-  color: #37517e;
+  color: #000000;
 }
 
 .navbar-mobile .dropdown ul {
@@ -483,13 +486,14 @@ font-weight: 400;
   display: inline-block;
   padding: 12px 32px;
   border-radius: 4px;
-  transition: 0.3s;
+  cursor: pointer; 
   line-height: 1;
   color: #000000;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
   border: 2px solid #000000;
+  transition: 0.2s all;
 }
 
 #hero .btn-get-started:hover {
@@ -497,6 +501,12 @@ font-weight: 400;
   color:white;
 }
 
+.btn:active { 
+  transform: scale(0.98); 
+  /* Scaling button to 0.98 to its original size */ 
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+  /* Lowering the shadow */ 
+} 
 #hero .btn-watch-video {
   font-size: 16px;
   display: flex;
@@ -523,13 +533,12 @@ font-weight: 400;
 }
 
 .hero-btn a{
-  background-color: brown;
+  background-color: rgb(0, 0, 0);
   color:white;
+  transition:2s;
   
 }
-#hero .animated {
-  animation: up-down 2s ease-in-out infinite alternate-reverse both;
-}
+
 
 @media (max-width: 991px) {
   #hero {
@@ -683,13 +692,6 @@ section {
   width: 100%;
 }
 
-.counts .count-box i {
-  display: block;
-  font-size: 44px;
-  color: #5c9f24;
-  float: left;
-  line-height: 0;
-}
 
 .counts .count-box span {
   font-size: 48px;
@@ -779,9 +781,8 @@ section {
   background: #000000;
   color: #fff;
   text-decoration: none;
-}
-
-/*--------------------------------------------------------------
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}/*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
 .why-us .content {
@@ -794,7 +795,7 @@ section {
 .why-us .content h3 {
   font-weight: 400;
   font-size: 34px;
-  color: #37517e;
+  color: black;
 }
 
 .why-us .content h4 {
@@ -999,7 +1000,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #37517e;
+  color: black;
   transition: ease-in-out 0.3s;
 }
 
@@ -1258,7 +1259,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #37517e;
+  color: black;
 }
 
 .team .member span {
@@ -1304,7 +1305,7 @@ section {
 }
 
 .team .member .social a i {
-  color: #37517e;
+  color: black;
   font-size: 16px;
   margin: 0 2px;
 }
@@ -1383,7 +1384,7 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #37517e;
+  color: black;
   transition: 0.3s;
 }
 
@@ -1436,7 +1437,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #37517e;
+  color: black;
 }
 
 .contact .info p {
@@ -1503,7 +1504,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: red;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1579,7 +1580,8 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #209dd8;
+  background: #000000;
+  color:white;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1607,7 +1609,7 @@ section {
   padding: 15px 0;
   background: #f3f5fa;
   min-height: 40px;
-  margin-top: 90px;
+  margin-top: 150px;
 }
 
 @media (max-width: 992px) {
@@ -1703,11 +1705,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #4154f1;
+  border: 1px solid #000000;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4154f1;
+  background-color: #000000;
 }
 
 .testimonials .swiper-slide {
@@ -1754,11 +1756,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #4154f1;
+  border: 1px solid #000000;
 }
 
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4154f1;
+  background-color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -1784,7 +1786,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #37517e;
+  color: black;
 }
 
 #footer .footer-newsletter form {
@@ -1820,7 +1822,8 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #209dd8;
+  background: #000000;
+  color: white;
 }
 
 #footer .footer-top {
@@ -1853,7 +1856,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #37517e;
+  color: black;
   position: relative;
   padding-bottom: 12px;
 }
